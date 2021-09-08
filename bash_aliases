@@ -4,7 +4,6 @@
 #  cp bash_aliases ~/.bash_aliases; source ~/.bashrc
 #
 
-
 cd() { builtin cd "$@"; ls -lah --color=auto; }
 
 alias ll='ls -lah --color=auto'
@@ -20,3 +19,4 @@ alias yes='yes > /dev/null &'
 alias yes4='yes yes yes yes'
 alias yess='killall yes'
 alias temp='vcgencmd measure_temp'
+alias indigo='indigo_server indigo_ccd_ptp indigo_mount_synscan indigo_ccd_asi indigo_focuser_mypro2 &'
