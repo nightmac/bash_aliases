@@ -1,9 +1,4 @@
 
-# Copy this file into home directory and source .bashrc to update bash session
-#
-#  cp bash_aliases ~/.bash_aliases; source ~/.bashrc
-#
-
 cd() { builtin cd "$@"; ls -lah --color=auto; }
 
 alias ll='ls -lah --color=auto'
