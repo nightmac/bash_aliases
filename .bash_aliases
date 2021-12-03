@@ -20,4 +20,4 @@ alias indigo='indigo_server indigo_ccd_ptp indigo_mount_synscan indigo_ccd_asi i
 alias indigoagents='indigo_server indigo_agent_imager indigo_agent_mount indigo_agent_guide indigo_agent_auxiliary'
 alias indigostop='killall indigo_server'
 alias servod='sudo servod'
-alias update='sudo apt update && sudo apt upgrade && sudo apt dist-upgrade'
+alias update='sudo apt update && sudo apt full-upgrade && sudo apt dist-upgrade'
