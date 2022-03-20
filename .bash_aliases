@@ -20,4 +20,6 @@ alias indigo='indigo_server indigo_ccd_qhy indigo_mount_synscan indigo_ccd_asi i
 alias indigoagents='indigo_server indigo_agent_imager indigo_agent_mount indigo_agent_guide indigo_agent_auxiliary'
 alias indigostop='killall indigo_server'
 alias servod='sudo servod'
+alias reboot='sudo reboot'
+alias shutdown='sudo shutdown now'
 alias update='sudo apt update && sudo apt full-upgrade && sudo apt dist-upgrade'
