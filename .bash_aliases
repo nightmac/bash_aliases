@@ -4,7 +4,6 @@ alias ..='cd ../'
 alias ...='cd ../../'
 alias ....='cd ../../..'
 alias ba='nano ~/.bash_aliases && exec bash'
-alias cpu="watch -n 1.5 'vcgencmd measure_clock arm | sed s/^.*=//; vcgencmd measure_temp | tr -d \"temp=\"; vcgencmd get_throttled'"
 alias desktop='cd ~/Desktop'
 alias gitba='git clone https://github.com/nightmac/bash_aliases.git && cp bash_aliases/.bash_aliases ~/ && rm -rf bash_aliases && exec bash'
 alias iperf='iperf3 -i .5 -t 5 -c '
